@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-21T10:04:41 EET" name="Free CRM Application Test" finished-at="2022-09-21T10:05:10 EET" duration-ms="28920">
+    <groups>
+    </groups>
+    <test started-at="2022-09-21T10:04:41 EET" name="End to End Test" finished-at="2022-09-21T10:05:10 EET" duration-ms="28920">
+      <class name="com.nagwa.testcases.SearchPageTest">
+        <test-method is-config="true" signature="beforeSetup(java.lang.String)[pri:0, instance:com.nagwa.testcases.SearchPageTest@3270d194]" started-at="2022-09-21T10:04:58 EET" name="beforeSetup" finished-at="2022-09-21T10:04:58 EET" duration-ms="608" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSetup -->
+        <test-method signature="gettingNoOFQuestions()[pri:2, instance:com.nagwa.testcases.SearchPageTest@3270d194]" started-at="2022-09-21T10:04:58 EET" name="gettingNoOFQuestions" finished-at="2022-09-21T10:05:10 EET" duration-ms="11887" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gettingNoOFQuestions -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nagwa.testcases.SearchPageTest@3270d194]" started-at="2022-09-21T10:05:10 EET" name="tearDown" finished-at="2022-09-21T10:05:10 EET" duration-ms="98" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nagwa.testcases.SearchPageTest -->
+      <class name="com.nagwa.testcases.HomePageTest">
+        <test-method is-config="true" signature="beforeSetup(java.lang.String)[pri:0, instance:com.nagwa.testcases.HomePageTest@223191a6]" started-at="2022-09-21T10:04:41 EET" name="beforeSetup" finished-at="2022-09-21T10:04:42 EET" duration-ms="995" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSetup -->
+        <test-method signature="clickOnLanguage()[pri:1, instance:com.nagwa.testcases.HomePageTest@223191a6]" started-at="2022-09-21T10:04:42 EET" name="clickOnLanguage" finished-at="2022-09-21T10:04:58 EET" duration-ms="15210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnLanguage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nagwa.testcases.HomePageTest@223191a6]" started-at="2022-09-21T10:04:58 EET" name="tearDown" finished-at="2022-09-21T10:04:58 EET" duration-ms="96" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nagwa.testcases.HomePageTest -->
+    </test> <!-- End to End Test -->
+  </suite> <!-- Free CRM Application Test -->
+</testng-results>
